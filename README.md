@@ -1,0 +1,18 @@
+# c-iseven
+
+c-iseven is a tool for determining if a number is even in c, written in Haskell
+
+## Installation
+
+Run `make` to build the library and the examples. (Or just `make iseven.c` for the library) Then
+copy the created iseven.c to your repository that needs the is_even function.
+
+## Notes
+
+- [example.c](example.c) uses spaces, rather than tabs
+- By default, there is only support for numbers up to 1024. To change this, edit `iterations` in
+[main.hs](main.hs).
+
+## License
+
+This content is licensed under the [MIT License](license).

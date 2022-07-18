@@ -22,4 +22,4 @@ generateFunctionContent x = mapM_ putLineOfCode x
 -- the specific line of code given. mod function can probably be recompiled with an implementation
 -- of iseven itself
 putLineOfCode :: Int -> IO ()
-putLineOfCode x = putStrLn ( "\tif (x == " ++ (show x) ++ ") return " ++ (show(mod x 2)) ++ ";" )
+putLineOfCode x = putStrLn ("\tif (x == " ++ (show x) ++ ") return " ++ (show(mod (x+1) 2)) ++ ";")
