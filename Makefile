@@ -6,5 +6,5 @@ INPT := main.hs
 iseven.c: $(EXEC)
 	./$(EXEC) > iseven.c
 
-$(EXEC):
+$(EXEC): $(INPT)
 	$(COMPILER) $(INPT)
