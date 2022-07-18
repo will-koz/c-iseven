@@ -15,5 +15,5 @@ int main (int argc, char** argv) {
     is_even_wrapper (9);
     is_even_wrapper (14);
 
-    return 1 - is_even(0);
+    return 1 - is_even(2);
 }

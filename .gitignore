@@ -2,7 +2,8 @@
 *.hi
 *.o
 
-# Ignore the final Haskell executable
+# Ignore the final executables
+example
 main
 
 # Ignore the generated C source code

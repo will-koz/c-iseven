@@ -19,7 +19,12 @@ $(LIBRARYFUNCTIONS): $(EXEC)
 $(EXEC): $(INPT)
 	$(COMPILER) $(INPT)
 
+run: $(EXAMPLE)
+	# ==============================================================================================
+	./$(EXAMPLE)
+	# ==============================================================================================
+
 clean:
 	rm -f $(EXAMPLE) $(EXEC) $(LIBRARYFUNCTIONS) *.hi *.o
 
-.PHONY: clean
+.PHONY: run clean
