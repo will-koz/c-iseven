@@ -1,0 +1,9 @@
+# Ignore some of the intermediate files for Haskell:
+*.hi
+*.o
+
+# Ignore the final Haskell executable
+main
+
+# Ignore the generated C source code
+iseven.c
